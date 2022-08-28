@@ -94,7 +94,6 @@ class HTMLProcessor extends WP2Static {
 		if ( isset( $this->settings['removeWPLinks'] ) ) {
 			$relative_links_to_rm = array(
 				'shortlink',
-				'canonical',
 				'pingback',
 				'alternate',
 				'EditURI',
